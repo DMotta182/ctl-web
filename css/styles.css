@@ -14,17 +14,17 @@ h2,
 h3,
 h4,
 h5{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 p{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arimo', sans-serif;
     font-weight: 300;
 }
 
 a,
 button{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arimo', sans-serif;
     font-weight: 500;
 }
 
@@ -80,6 +80,7 @@ h2 {
 }
 
 .carousel-content h1{
+    font-weight: 700;
     font-size: 3.5rem;
     color: white;
 }
@@ -103,9 +104,13 @@ h2 {
     padding-top: 90px;
 }
 
+.about-image{
+    width: 100%;
+}
+
 .ub-container{
     background-color: white;
-    height: 800px;
+    height: 850px;
     margin: 0;
     padding: 0;
 }
@@ -119,7 +124,7 @@ iframe{
     position: relative;
     z-index: 7;
     padding: 0;
-    bottom: 770px;
+    bottom: 800px;
     left: 70%;
 
 }
