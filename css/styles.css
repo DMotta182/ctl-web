@@ -1,0 +1,137 @@
+:root{
+    --ctl-blue: #18316b;
+    --ctl-darkbackground:#282828;
+    --ctl-bluebackground:#0c0032;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: 'Lato', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+a,
+button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.btn-primary{
+    background-color: var(--ctl-blue);
+    border-color: var(--ctl-blue);
+}
+
+.navbar{
+    background-color: var(--ctl-darkbackground);
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    letter-spacing: .5px;
+}
+
+.ctl-button{
+    font-size: 1.3rem;
+}
+
+.carousel-item {
+    height: 85vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-content::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 85vh;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.carousel-content {
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20vh;
+    top: 0;
+}
+
+.carousel-content h1{
+    font-size: 3.5rem;
+    color: white;
+}
+.carousel-control-prev, .carousel-control-next{
+    z-index: 2;
+}
+
+.espacio{
+    content: "";
+}
+
+.ns-container{
+    background-color: white;
+    padding-top: 90px;
+    color: black;
+}
+
+.about-container{
+    background-color: var(--ctl-darkbackground);
+    color: white;
+    padding-top: 90px;
+}
+
+.ub-container{
+    background-color: white;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+}
+
+iframe{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    position: relative;
+    z-index: 7;
+    padding: 0;
+    bottom: 770px;
+    left: 70%;
+
+}
+
+.card-body h5{
+    font-size: 1rem;
+}
+
+.card-body p{
+    font-size: 0.8rem;
+}
+footer{
+    background-color: var(--ctl-darkbackground);
+    color: white;
+}
