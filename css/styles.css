@@ -1,9 +1,12 @@
+/* Color Pallet ----------------------------- */
+
 :root{
     --ctl-blue: #18316b;
     --ctl-darkbackground:#282828;
     --ctl-bluebackground:#0c0032;
 }
 
+/* General Styles ----------------------------- */
 html {
     scroll-behavior: smooth;
 }
@@ -37,6 +40,8 @@ h2 {
     border-color: var(--ctl-blue);
 }
 
+/* Nav Bar ----------------------------- */
+
 .navbar{
     background-color: var(--ctl-darkbackground);
 }
@@ -48,7 +53,11 @@ h2 {
 
 .ctl-button{
     font-size: 1.3rem;
+    color: white;
+    position: relative;
 }
+
+/* Carousel Section ----------------------------- */
 
 .carousel-item {
     height: 85vh;
@@ -88,15 +97,20 @@ h2 {
     z-index: 2;
 }
 
-.espacio{
-    content: "";
-}
+
+/* Nuestros Servicios ----------------------------- */
 
 .ns-container{
     background-color: white;
     padding-top: 90px;
     color: black;
 }
+
+.ser-image{
+    width: 100%;
+}
+
+/* Nosotros ----------------------------- */
 
 .about-container{
     background-color: var(--ctl-darkbackground);
@@ -107,6 +121,8 @@ h2 {
 .about-image{
     width: 100%;
 }
+
+/* Ubicaciones ----------------------------- */
 
 .ub-container{
     background-color: white;
@@ -136,7 +152,40 @@ iframe{
 .card-body p{
     font-size: 0.8rem;
 }
+
+/* Footer ----------------------------- */
+
 footer{
     background-color: var(--ctl-darkbackground);
     color: white;
+}
+
+@media only screen and (max-width: 1000px){
+    .carousel-content h1{
+        font-size: 3rem;
+    }
+
+    .buttons-container{
+        top: -100px;
+    }
+
+    .ser-image{
+        width: 60%;
+        left: 25%;
+    }
+
+    .ub-container{
+        height: inherit;
+    }
+
+    iframe{
+        display: none;
+    }
+
+    .card{
+        left: 0;
+        bottom: 0;
+    }
+
+
 }
