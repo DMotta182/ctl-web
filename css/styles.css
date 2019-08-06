@@ -46,6 +46,7 @@ h2 {
     background-color: var(--ctl-darkbackground);
 }
 
+
 .nav-link{
     font-size: 1.3rem;
     letter-spacing: .5px;
@@ -161,12 +162,20 @@ footer{
 }
 
 @media only screen and (max-width: 1000px){
+    .navbar-brand{
+        max-width: 250px;
+    }
+
+    .carousel-content{
+        padding-top: 10vh;
+    }
+    
     .carousel-content h1{
         font-size: 3rem;
     }
 
     .buttons-container{
-        top: -100px;
+       padding-bottom: 10vh;
     }
 
     .ser-image{
