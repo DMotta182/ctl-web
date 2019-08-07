@@ -34,7 +34,7 @@
                     <a class="nav-link" href="#ubicaciones">Ubicaciones</a>
                 </li>
                 <li class="nav-item ml-3">
-                    <button class="btn btn-primary ctl-button" href="#">Contáctanos</button>
+                    <button class="btn btn-primary ctl-button contact">Contáctanos</button>
                 </li>
             </ul>
         </div>
@@ -87,10 +87,10 @@
                 </div>
                 <div class="pl-md-5 d-flex flex-column flex-md-row justify-content-center buttons-container">
                     <div>
-                        <a href="#" class="btn btn-primary btn-b btn-lg ctl-button mx-md-5 mb-2 ml-4">Contáctoanos</a>
+                        <a href="#" class="btn btn-primary btn-b btn-lg ctl-button mx-md-5 mb-2 ml-4 contact">Contáctoanos</a>
                     </div>
                     <div>
-                        <a href="#" class="btn btn-primary mb-2 btn-lg ctl-button mx-md-5">Nuestros Servicios</a>
+                        <a href="#servicios" class="btn btn-primary mb-2 btn-lg ctl-button mx-md-5">Nuestros Servicios</a>
                     </div>
                 </div> 
             </div>
@@ -133,7 +133,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <button class="btn ctl-button btn-primary mb-5">Contáctanos</button>
+                <button class="btn ctl-button btn-primary mb-5 contact">Contáctanos</button>
             </div>
         </div>
     </div>
@@ -157,7 +157,7 @@
                 <img class="text-center" src="images/iso9001.png" alt="">
             </div>
             <div class="row justify-content-center">
-                <button class="btn ctl-button btn-primary mb-5">Contáctanos</button>
+                <button class="btn ctl-button btn-primary mb-5 contact">Contáctanos</button>
             </div>
         </div>
     </div>
@@ -165,7 +165,7 @@
     <!-- Nuestras Ubicaciones ------------->
 
     <div class="container-fluid ub-container" id="ubicaciones">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.480945574057!2d-90.5645021852713!3d14.628619089784632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1b360d1f9eb%3A0x260dc46ba7f7c63c!2sCTL!5e0!3m2!1sen!2sgt!4v1564459317065!5m2!1sen!2sgt" width="100%" height="850px" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe class="map-background" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.480945574057!2d-90.5645021852713!3d14.628619089784632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1b360d1f9eb%3A0x260dc46ba7f7c63c!2sCTL!5e0!3m2!1sen!2sgt!4v1564459317065!5m2!1sen!2sgt" width="100%" height="850px" frameborder="0" style="border:0" allowfullscreen></iframe>
             <div class="col-md-3 card">
                 <div class="card-header">
                     <h3>Nuestras Ubicaciones</h3>
@@ -191,7 +191,7 @@
                     <a href="tel:50279524325<">+(502) 7952-4325</a>
                 </div>
                 <div class="card-body text-center">
-                    <a href="" class="btn ctl-button btn-primary">Contáctanos</a>
+                    <a href="#" class="btn ctl-button btn-primary contact">Contáctanos</a>
                 </div>
             </div>
         </div>
@@ -227,9 +227,21 @@
         </div>
     </footer>
 
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <iframe class="contact-form" src="https://docs.google.com/forms/d/e/1FAIpQLSeTo36xGikHhhxoJqj08TIls3LbBffBqY9gLSQts7yRr99-5w/viewform?embedded=true" width="100%" height="900px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <span class="close">&times;</span>
+
+            </div>
+        </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>    
 </body>
 </html>
