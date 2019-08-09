@@ -1,4 +1,4 @@
-
+new WOW().init();
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -6,7 +6,12 @@ var modal = document.getElementById("myModal");
 var btn = document.querySelectorAll (".contact");
 for (var a = 0; a < btn.length; a++) {
     btn[a].addEventListener('click', function() {
-        modal.style.display = "block";
+        if ((document.documentElement.clientWidth) < 600){
+            window.open('https://forms.gle/BFGKkwvAj122VVkV7', '_blank');
+        }
+        else {
+            modal.style.display = "block";
+        }
     })
 }
 
@@ -15,7 +20,13 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
-    modal.style.display = "block";
+    if ((document.documentElement.clientWidth) < 600){
+        window.open('https://forms.gle/BFGKkwvAj122VVkV7', '_blank');
+    }
+    else {
+        modal.style.display = "block";
+    }
+    
 }
 
 // When the user clicks on <span> (x), close the modal
