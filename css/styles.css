@@ -32,7 +32,11 @@ button{
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 1.8rem;
 }
 
 .btn-primary{
@@ -85,14 +89,21 @@ h2 {
     height: 85vh;
     position: absolute;
     z-index: 1;
-    padding-top: 20vh;
+    padding-top: 15vh;
     top: 0;
+    color: white;
 }
 
-.carousel-content h1{
+.carousel-content h1 {
     font-weight: 700;
     font-size: 4.5rem;
-    color: white;
+    letter-spacing: 2px;
+}
+
+.carousel-content h3{
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
 }
 .carousel-control-prev, .carousel-control-next{
     z-index: 2;
@@ -107,8 +118,8 @@ h2 {
     color: black;
 }
 
-.ser-image{
-    width: 100%;
+.icon{
+    width: 75%;
 }
 
 /* Nosotros ----------------------------- */
@@ -176,20 +187,23 @@ footer{
     }
 
     .carousel-content{
-        padding-top: 10vh;
+        padding-top: 8vh;
     }
     
     .carousel-content h1{
-        font-size: 3rem;
+        font-size: 2.4rem;
+    }
+
+    .carousel-content h3{
+        font-size: 1.3rem;
     }
 
     .buttons-container{
        padding-bottom: 10vh;
     }
 
-    .ser-image{
-        width: 60%;
-        left: 25%;
+    .icon{
+        width: 50%;
     }
 
     .ub-container{
