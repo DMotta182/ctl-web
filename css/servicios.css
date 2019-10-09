@@ -1,0 +1,62 @@
+/* Color Pallet */
+
+:root{
+    --ctl-blue: #18316b;
+    --ctl-darkbackground:#282828;
+    --ctl-bluebackground:#0c0032;
+}
+
+/* General Styles ----------------------------- */
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 300;
+}
+
+a,
+button{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.btn-primary{
+    background-color: var(--ctl-blue);
+    border-color: var(--ctl-blue);
+}
+
+/* Nav Bar ----------------------------- */
+
+.navbar{
+    background-color: var(--ctl-darkbackground);
+}
+
+
+.nav-link{
+    font-size: 1.3rem;
+    letter-spacing: .5px;
+}
+
+.ctl-button{
+    font-size: 1.3rem;
+    color: white;
+    position: relative;
+}

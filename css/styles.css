@@ -138,31 +138,30 @@ h3 {
 
 .ub-container{
     background-color: white;
-    height: 850px;
     margin: 0;
     padding: 0;
 }
 
-iframe{
-    margin: 0;
-    padding: 0;
+.ubicaciones-content{
+    padding-top: 90px;
+}
+
+.map{
+    width: 100%;
+    top: 20px;
 }
 
 .card{
-    position: relative;
-    z-index: 7;
+    margin: 0;
     padding: 0;
-    bottom: 800px;
-    left: 70%;
-
 }
 
 .card-body h5{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .card-body p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 /* Footer ----------------------------- */
@@ -170,6 +169,10 @@ iframe{
 footer{
     background-color: var(--ctl-darkbackground);
     color: white;
+}
+
+.telefono{
+    padding-left: 38%
 }
 
 .flag{
